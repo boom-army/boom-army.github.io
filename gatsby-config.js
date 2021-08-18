@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Harkl | Monetized. Decentralized. Social.`,
+    description: `Harkl is a token currently being built on Solana to change the way we do Social Media.`,
+    author: `@harkl_`,
   },
   plugins: [
     {
