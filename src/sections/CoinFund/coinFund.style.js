@@ -151,11 +151,15 @@ const CoinFundWrapper = styled.div`
       .split {
         display: none;
       }
-      .count {
-        font-size: 35px;
-      } 
       .countBox{
         flex-direction: column-reverse;
+        .count {
+          font-size: 35px;
+          margin-bottom: 0;
+        }
+        .label {
+          margin-bottom: 0;
+        }
       }
     }
   }

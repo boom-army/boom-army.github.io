@@ -33,7 +33,7 @@ const StackSectionWrapper = styled.div`
   @media only screen and (max-width: 480px) {
     padding: 20px 0;
     .box.language-image a img {
-      width: 70%;
+      width: 30px;
     }
     .heading {
       font-size: 33px;
