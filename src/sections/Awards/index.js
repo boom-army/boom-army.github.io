@@ -22,7 +22,7 @@ const Awards = () => {
                   <Heading as="h1">Development progress</Heading>
                 </SectionBackground>
                 <Text>
-                  Alpha is being built out as we speak and a lot of the Solana community on Twitter are following harkl_ ready to be alpha testers. 
+                  Alpha is being built out as we speak and a lot of the Solana community on Twitter are following <a href="https://twitter.com/harkl_">harkl_</a> ready to be alpha testers. 
                   There are 3 parts of the application: the React client, The token, and the GraphQL API. 
                   For alpha launch they'll be deployed on a centralised host, but the overall goal on the roadmap is to open source the client
                   and move the GraphQL API into <a href="https://orbitdb.org">Orbit DB</a> built with <a href="https://ipfs.io">IPFS</a>.
