@@ -7,7 +7,8 @@ import Navigation from "sections/Navigation";
 import CoinFund from "sections/CoinFund";
 import Service from "sections/Service";
 import Stack from "sections/Stack"; 
-import Faq from "sections/Faq";
+import Faq from "sections/Faq"; 
+import Awards from "sections/Awards";
 import Footer from "sections/Footer";
 
 import theme from "assets/theme/theme";
@@ -27,7 +28,8 @@ const IndexPage = () => (
       <br />
       <CoinFund />
       <Service />
-      <Stack /> 
+      <Stack />
+      <Awards />
       <Faq />
       <Footer />
     </Layout>

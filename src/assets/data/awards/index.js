@@ -1,27 +1,31 @@
 import React from 'react';
-import { FaAward, FaStar, FaHeart, FaDownload } from "react-icons/fa";
+import { FaMobile, FaUsers, FaCoins, FaDatabase } from "react-icons/fa";
 
 export default {
   awards: [
     {
-      icon: <FaAward />,
+      icon: <FaMobile />,
+      count: 65,
+      body: "Client complete",
+      suffix: "%"
+    },
+    {
+      icon: <FaCoins />,
       count: 100,
-      body: "Awards",
+      body: "Token complete",
+      suffix: "%"
     },
     {
-      icon: <FaDownload />,
-      count: 12000,
-      body: "Downloads",
+      icon: <FaDatabase />,
+      count: 78,
+      body: "API complete",
+      suffix: "%"
     },
     {
-      icon: <FaStar />,
-      count: 10000,
-      body: "Ratings",
-    },
-    {
-      icon: <FaHeart />,
-      count: 15000,
-      body: "Loves",
+      icon: <FaUsers />,
+      count: 654,
+      body: "Alpha testers",
+      suffix: ""
     },
   ],
 };

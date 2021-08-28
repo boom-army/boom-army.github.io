@@ -4,6 +4,7 @@ import VisibilitySensor from "react-visibility-sensor";
 
 const Counter = ({ className, ...rest }) => {
   const [viewPortEntered, setViewPortEntered] = useState(false);
+  console.log(rest);
 
   return (
     <CountUp {...rest} start={viewPortEntered ? null : 0}>

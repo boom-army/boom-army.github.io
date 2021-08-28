@@ -19,12 +19,14 @@ const Awards = () => {
             <Box className="awards-left-content">
               <SectionTitle>
                 <SectionBackground>
-                  <Heading as="h1">Largest Achievements</Heading>
+                  <Heading as="h1">Development progress</Heading>
                 </SectionBackground>
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers. A parameters phase
-                  orthographic the can differentiates far catch.
+                  Alpha is being built out as we speak and a lot of the Solana community on Twitter are following harkl_ ready to be alpha testers. 
+                  There are 3 parts of the application: the React client, The token, and the GraphQL API. 
+                  For alpha launch they'll be deployed on a centralised host, but the overall goal on the roadmap is to open source the client
+                  and move the GraphQL API into <a href="https://orbitdb.org">Orbit DB</a> built with <a href="https://ipfs.io">IPFS</a>.
+                  You can follow completeness of the different componets here.
                 </Text>
               </SectionTitle>
             </Box>
@@ -43,7 +45,7 @@ const Awards = () => {
                   </Text>
                   <Box className="counter-text">
                     {" "}
-                    <Counter end={item.count} suffix="+" />{" "}
+                    <Counter end={item.count} suffix={item.suffix} />{" "}
                     <Text as="span">{item.body}</Text>{" "}
                   </Box>
                 </Box>

@@ -4,6 +4,20 @@
   "description": "Promo page for harkl",
   "version": "0.1.0",
   "author": "",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "deploy": "rm -rf docs && gatsby build && mv public docs",
+    "dev": "npm run develop",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.19.45",
@@ -34,20 +48,6 @@
   },
   "devDependencies": {
     "prettier": "^1.19.1"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "clean": "gatsby clean",
-    "deploy": "rm -rf docs && gatsby build && mv public docs",
-    "dev": "npm run develop",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",
