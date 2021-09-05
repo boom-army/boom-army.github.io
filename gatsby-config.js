@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Harkl | Monetized. Decentralized. Social.`,
-    description: `Harkl is a token currently being built on Solana to change the way we do Social Media.`,
+    title: `Sosol | Monetized. Decentralized. Social.`,
+    description: `Sosol is a token currently being built on Solana to change the way we do Social Media.`,
     author: `@harkl_`,
   },
   plugins: [

@@ -56,7 +56,7 @@ const CoinFund = () => {
           </Col>
           <Col className="lg-6 md-12 countdown-wrap">
             <Box className="countdown-wrapper">
-              <Text>harkl launching in... </Text>
+              <Text>sosol launching in... </Text>
               <CountdownTimer {...settings} />
             </Box>
 
