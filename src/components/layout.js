@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <>
       <Helmet>
         <html lang="en" />
-        <title>{`Cryptik is Next Gen React Nextjs and Gatsbyjs landing`}</title> 
+        <title>{`Sosol`}</title> 
         <link
           rel="stylesheet"
           type="text/css" 

@@ -18,7 +18,7 @@ const IndexPage = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Sosol | Monetized. Decentralized. Social." />
       <Navigation />
       <br />
       <br />
