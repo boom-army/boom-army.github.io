@@ -8,7 +8,7 @@ export default {
   stack: [
     {
       name: "github",
-      url: "https://github.com/h4rkl",
+      url: "https://github.com/sosol-gmi",
       imageSrc: githubLogo,
     },
     {
