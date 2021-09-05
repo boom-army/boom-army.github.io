@@ -20,7 +20,7 @@ import CoinFundWrapper from "./coinFund.style"
 
 const CoinFund = () => {
   const settings = {
-    count:  1633037317 - (Date.now()/1000),
+    count:  1633737542 - (Date.now()/1000),
     showTitle: true,
     size: 60,
     labelSize: 14,

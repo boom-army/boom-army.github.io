@@ -82,7 +82,7 @@ const Faq = () => {
             <Col className="md-5 offset-md-1 offset-xs-0 xs-12">
               <img
                 src={faqImage}
-                alt="cryptik faq image"
+                alt="cryptik faq"
                 className="faq-image"
               />
             </Col>
