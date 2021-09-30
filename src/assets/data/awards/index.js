@@ -17,13 +17,13 @@ export default {
     },
     {
       icon: <FaDatabase />,
-      count: 50,
+      count: 100,
       body: "Devops complete",
       suffix: "%"
     },
     {
       icon: <FaUsers />,
-      count: 1244,
+      count: 1250,
       body: "Alpha testers",
       suffix: ""
     },
