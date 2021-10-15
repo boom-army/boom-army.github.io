@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "gatsby";
 import { FaBars } from "react-icons/fa";
 import { Container } from "reusecore/Layout";
-import logo from "assets/images/sosol-logo.svg";
+import logo from "assets/images/sosol-logo.png";
 
 import Data from "./utility/data.js";
 import ScrollspyMenu from "./utility/ScrollspyMenu";
