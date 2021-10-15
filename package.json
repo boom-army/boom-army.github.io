@@ -11,7 +11,7 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "deploy": "rm -rf public && gatsby build",
+    "deploy": "rm -rf docs && gatsby build && mv public docs",
     "dev": "npm run develop",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
