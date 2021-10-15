@@ -4,7 +4,7 @@ import { ThemeProvider } from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo";
 import Navigation from "sections/Navigation";
-import CoinFund from "sections/CoinFund";
+import BannerTwo from "sections/BannerTwo";
 import Service from "sections/Service";
 import Stack from "sections/Stack"; 
 import Faq from "sections/Faq"; 
@@ -20,13 +20,7 @@ const IndexPage = () => (
     <Layout>
       <SEO title="Sosol | Monetized. Decentralized. Social." />
       <Navigation />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <CoinFund />
+      <BannerTwo />
       <Service />
       <Stack />
       <Awards />

@@ -22,7 +22,7 @@ const Subscribe = () => {
                     <SectionTitle>
                       <Heading> Don’t miss out, Stay updated </Heading>
                       <Text>
-                        Follow harkl_ on twitter for updates and market news.
+                        Follow sosol_app on twitter for updates and market news.
                         All live updates will be released via Twitter.
                       </Text>
                     </SectionTitle>
@@ -31,7 +31,7 @@ const Subscribe = () => {
                 <Row>
                   <Col className="lg-8 offset-lg-2 xs-12">
                     <Box className="banner-btn">
-                      <Link to="https://twitter.com/harkl_" target="_blank" className="btn btn-fill">
+                      <Link to="https://twitter.com/sosol_app" target="_blank" className="btn btn-fill">
                         Go to updates
                       </Link>
                     </Box>

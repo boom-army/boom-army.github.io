@@ -16,7 +16,7 @@ import prticleTopRight from "assets/images/particles/banner/prticle-top-right.pn
 import particleBottomLeft from "assets/images/particles/banner/particle-bottom-left.png";
 import particleBottomRight from "assets/images/particles/banner/particle-bottom-right.png";
 
-import {FaGithub} from 'react-icons/fa'
+import {FaRocket} from 'react-icons/fa'
 
 import keyIcon from 'assets/images/banners/banner-two/cryptik-banner-key-icon.svg';
 import watchIcon from 'assets/images/banners/banner-two/cryptik-banner-watch-icon.svg';
@@ -238,33 +238,33 @@ const BannerTwo = () => {
           <Col className="lg-7 md-10 xs-12">
             <Box className="banner-content"> 
               <Heading>
-                Access the <br/>
-                power of blockchain
+                Monetized, censorship  <br/>
+                resistant social media
               </Heading>
               <Text as="span" className="description">
-                The highly the not having with lively. Our up with ran go her it
-                gloomy the back, though however projected not for six with then,
-                trusted as concepts belt.
+                "If you're not paying for it, you're not the customer; you're the product".{" "}
+                <br />
+                Get paid in crypto for your social media. Decentralized on Solana, the fastest functional blockchain that exists.
               </Text>
 
               <Box className="coin-info">
                 <Box>
                   <Image src={keyIcon} alt="crypto banner icon" />
-                  <Text>Access</Text>
+                  <Text>PublicKey Based</Text>
                 </Box>
                 <Box>
                   <Image src={watchIcon} alt="crypto banner icon" />
-                  <Text>Speed</Text>
+                  <Text>Fast</Text>
                 </Box>
                 <Box>
                   <Image src={heartIcon} alt="crypto banner icon" />
-                  <Text>Certainty</Text>
+                  <Text>Gmoot</Text>
                 </Box>
               </Box>
 
               <Box className="banner-btn">
-                <Link to="#" className="btn btn-fill">
-                   <FaGithub /> Download Crypto 
+                <Link to="https://my.sosol.app" className="btn btn-fill">
+                   <FaRocket /> Launch app 
                 </Link> 
               </Box>
             </Box>

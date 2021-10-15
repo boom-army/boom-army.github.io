@@ -5,7 +5,7 @@ export default {
   awards: [
     {
       icon: <FaMobile />,
-      count: 96,
+      count: 100,
       body: "App complete",
       suffix: "%"
     },
@@ -23,7 +23,7 @@ export default {
     },
     {
       icon: <FaUsers />,
-      count: 1250,
+      count: 1303,
       body: "Alpha testers",
       suffix: ""
     },
