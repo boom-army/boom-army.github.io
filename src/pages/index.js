@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo";
 import Navigation from "sections/Navigation";
 import BannerTwo from "sections/BannerTwo";
+import Banner from "sections/Banner";
 import Service from "sections/Service";
 import Stack from "sections/Stack"; 
 import Faq from "sections/Faq"; 
@@ -23,6 +24,7 @@ const IndexPage = () => (
       <BannerTwo />
       <Service />
       <Stack />
+      <Banner />
       <Awards />
       <Faq />
       <Footer />

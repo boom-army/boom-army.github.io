@@ -50,25 +50,24 @@ const Banner = () => {
           <Col className="lg-8 xs-12">
             <Box className="banner-content">
               <Badge className="offer-text">
-                14 days, a huge of free trial
+                Making social better
               </Badge>
               <Heading as="h1">
-                Easiest way to transfer, <br /> sell & exchange crypto coins
+                Democratic social media<br /> monetized for Content Creators
               </Heading>
               <Text>
-                The highly the not having with lively. Our up with ran go her{" "}
-                <br />
-                it gloomy the back, though however projected not for six with
-                then, <br /> trusted as concepts belt.
+                "Users" who provide their data to Big Social Media at no cost,{" "} 
+                typically have a low opportunity to monetize their content.
+                <br /><br />
+                Sosol aims to change that. Read our Whitepaper to find out more:
               </Text>
               <Box className="banner-btn">
-                <Link to="#" className="btn btn-fill">
+                {/* <Link to="#" className="btn btn-fill">
                   {" "}
                   Get in touch{" "}
-                </Link>
-                <Link to="#" className="btn">
-                  {" "}
-                  white paper{" "}
+                </Link> */}
+                <Link to="https://github.com/sosol-gmi/docs/blob/main/whitepaper.md" className="btn" target="_blank">
+                  White paper
                 </Link>
               </Box>
             </Box>
