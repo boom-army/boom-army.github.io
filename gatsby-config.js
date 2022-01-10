@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Sosol | Monetized. Decentralized. Social.`,
-    description: `Sosol is a token currently being built on Solana to change the way we do Social Media.`,
+    title: `Boom | NFT Driven Creator Communities`,
+    description: `BMA is a token currently being built on Solana to change the way people socially enage with NFTs.`,
     author: `@harkl_`,
   },
   plugins: [
