@@ -263,7 +263,7 @@ const BannerTwo = () => {
               </Box>
 
               <Box className="banner-btn">
-                <Link to="https://my.sosol.app" className="btn btn-fill">
+                <Link to="https://app.boom.army" className="btn btn-fill">
                    <FaRocket /> Launch app 
                 </Link> 
               </Box>

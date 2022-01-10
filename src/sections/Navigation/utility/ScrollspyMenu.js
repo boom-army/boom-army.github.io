@@ -40,7 +40,7 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
         </ListItem>
       ))}
       <ListItem>
-        <Link to="https://my.sosol.app" target="_blank">
+        <Link to="https://app.boom.army" target="_blank">
           <button className="nav__button">Launch app</button>
         </Link>
       </ListItem>
