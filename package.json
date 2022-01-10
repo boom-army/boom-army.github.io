@@ -11,7 +11,7 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "deploy": "rm -rf docs && gatsby build && mv public docs && echo \"sosol.app\" >> ./docs/CNAME",
+    "deploy": "rm -rf docs && gatsby build && mv public docs && echo \"boom.army\" >> ./docs/CNAME",
     "dev": "npm run develop",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
