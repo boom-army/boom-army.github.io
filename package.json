@@ -1,7 +1,7 @@
 {
-  "name": "sosol",
+  "name": "boom-army",
   "private": true,
-  "description": "Promo page for sosol",
+  "description": "Promo page for boom",
   "version": "0.1.0",
   "author": "",
   "keywords": [
@@ -51,7 +51,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sosol-gmi/h4rkl.github.io"
+    "url": "https://github.com/sosol-gmi/sosol-gmi.github.io"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

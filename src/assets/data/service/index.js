@@ -13,12 +13,12 @@ export default {
     {
       icon: serviceIcon2,
       title: "Monetized",
-      body: "Sosol tokenomics are designed to be transactional so YOU get paid in crypto.",
+      body: "Boom tokenomics are designed to be transactional so YOU get paid in crypto.",
     },
     {
       icon: serviceIcon3,
       title: "Social Media",
-      body: "The sosol content model is designed to be integrated with any and every platform.",
+      body: "The boom content model is designed to be integrated with any and every platform.",
     },
     {
       icon: serviceIcon4,

@@ -59,7 +59,7 @@ const Banner = () => {
                 "Users" who provide their data to Big Social Media at no cost,{" "} 
                 typically have a low opportunity to monetize their content.
                 <br /><br />
-                Sosol aims to change that. Read our Whitepaper to find out more:
+                Boom aims to change that. Read our Whitepaper to find out more:
               </Text>
               <Box className="banner-btn">
                 {/* <Link to="#" className="btn btn-fill">

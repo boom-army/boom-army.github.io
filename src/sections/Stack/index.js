@@ -19,7 +19,7 @@ const Stack = () => {
             <SectionTitle>
               <Heading> Technology targets</Heading>
               <Text>
-                Sosol's end goal is targeting a completely opensource, censorship resistant platform deployment. 
+                Boom's end goal is targeting a completely opensource, censorship resistant platform deployment. 
                 But the token will also have utility to be used on every social media platform no matter how centralised.
                 After alpha, we'll be releasing a road map outlining the timeline from centralised delivery in alpha, to
                 a completely decentralised blockchain platform.

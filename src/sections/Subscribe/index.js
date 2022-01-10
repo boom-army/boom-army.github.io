@@ -20,7 +20,7 @@ const Subscribe = () => {
                 <Row>
                   <Col className="lg-6 offset-lg-3 xs-12">
                     <SectionTitle>
-                      <Heading> Don’t miss out, Stay updated </Heading>
+                      <Heading> Don't miss out, Stay updated </Heading>
                       <Text>
                         Follow sosol_app on twitter for updates and market news.
                         All live updates will be released via Twitter.

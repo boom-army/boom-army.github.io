@@ -19,7 +19,7 @@ const IndexPage = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Layout>
-      <SEO title="Sosol | Monetized. Decentralized. Social." />
+      <SEO title="Boom | NFT Driven Creator Communities" />
       <Navigation />
       <BannerTwo />
       <Service />
