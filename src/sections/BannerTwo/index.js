@@ -238,13 +238,13 @@ const BannerTwo = () => {
           <Col className="lg-7 md-10 xs-12">
             <Box className="banner-content"> 
               <Heading>
-                Monetized, censorship  <br/>
-                resistant social media
+                NFT Driven  <br/>
+                Creator Communities
               </Heading>
               <Text as="span" className="description">
-                "If you're not paying for it, you're not the customer; you're the product".{" "}
+                We're developing a dedicated space on Solana to share, discuss, mint and game with your NFTs.{" "}
                 <br />
-                Get paid in crypto for your social media. Decentralized on Solana, the fastest functional blockchain that exists.
+                Get access to the dopest NFT driven communities in the world and make money for your content in the process.
               </Text>
 
               <Box className="coin-info">
