@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Boom | NFT Driven Creator Communities`,
-    description: `BMA is a token currently being built on Solana to change the way people socially enage with NFTs.`,
+    description: `The Boom Army is changing the way Creators develop NFTs to engage their Communities on Solana.`,
     author: `@harkl_`,
     url: "https://boom.army",
   },
