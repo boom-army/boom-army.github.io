@@ -28,9 +28,9 @@ import {
         //     icon: <FaTelegramPlane />,
         //     url: "#"
         // },
-        // {
-        //     icon: <FaDiscord />,
-        //     url: "#"
-        // },
+        {
+            icon: <FaDiscord />,
+            url: "discord.gg/nEyQQeaNRk"
+        },
     ]
   }

@@ -3,12 +3,12 @@ import { Link } from "gatsby"
 
 import { Container, Row, Col } from "reusecore/Layout";
 import Box from "reusecore/Box";
-import Badge from "reusecore/Badge";
+// import Badge from "reusecore/Badge";
 import Heading from "reusecore/Heading";
 import Text from "reusecore/Text";
 import Image from "reusecore/Image";
 
-import BannerImage from "assets/images/banners/banner-two/cryptik-banner-two-thumb.svg";
+// import BannerImage from "assets/images/banners/banner-two/cryptik-banner-two-thumb.svg";
 
 import particleTopLeft from "assets/images/particles/banner/particle-top-left.png";
 import particleUnderLogo from "assets/images/particles/banner/particle-under-logo.png";

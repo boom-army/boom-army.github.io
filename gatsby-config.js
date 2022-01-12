@@ -3,6 +3,7 @@ module.exports = {
     title: `Boom | NFT Driven Creator Communities`,
     description: `BMA is a token currently being built on Solana to change the way people socially enage with NFTs.`,
     author: `@harkl_`,
+    url: "https://boom.army",
   },
   plugins: [
     {

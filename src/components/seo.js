@@ -20,6 +20,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            url
           }
         }
       }
@@ -49,7 +50,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `og:image`,
-          content: boomArmy,
+          content: site.siteMetadata.url + boomArmy,
         },
         {
           property: `og:type`,
@@ -73,7 +74,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:image`,
-          content: boomArmy,
+          content: site.siteMetadata.url + boomArmy,
         },
       ].concat(meta)}
     />
