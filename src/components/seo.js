@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import boomArmy from "assets/images/raise-the-boomarmy.png";
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -32,7 +33,7 @@ function SEO({ description, lang, meta, title }) {
       htmlAttributes={{
         lang,
       }}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={site.siteMetadata.title}
       meta={[
         {
           name: `description`,
@@ -45,6 +46,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:description`,
           content: metaDescription,
+        },
+        {
+          name: `og:image`,
+          content: boomArmy,
         },
         {
           property: `og:type`,
@@ -65,6 +70,10 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: boomArmy,
         },
       ].concat(meta)}
     />
