@@ -30,7 +30,7 @@ import {
         // },
         {
             icon: <FaDiscord />,
-            url: "discord.gg/nEyQQeaNRk"
+            url: "https://discord.gg/nEyQQeaNRk"
         },
     ]
   }
