@@ -231,7 +231,7 @@ const BannerTwo = () => {
             <Box className="banner-content"> 
               <Heading>
                 NFT Driven  <br/>
-                Creator Communities
+                Communities
               </Heading>
               <Text as="span" className="description">
                 We're developing a dedicated space on Solana to share, discuss, mint and game with your NFTs.{" "}

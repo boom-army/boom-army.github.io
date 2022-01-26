@@ -19,10 +19,10 @@ const Stack = () => {
             <SectionTitle>
               <Heading> Technology targets</Heading>
               <Text>
-                Boom's end goal is targeting a completely opensource, censorship resistant platform deployment. 
-                But the token will also have utility to be used on every social media platform no matter how centralised.
-                After alpha, we'll be releasing a road map outlining the timeline from centralised delivery in alpha, to
-                a completely decentralised blockchain platform.
+                Boom is a social network built on the Solana blockchain. Boom
+                lets you create NFT Communities with one click. NFTs govern
+                access to those Communities. Boom will deliver a marketplace to
+                trade your NFTS.
               </Text>
             </SectionTitle>
           </Col>

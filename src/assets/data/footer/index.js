@@ -10,7 +10,7 @@ import {
     links : [
         {
             icon: <FaTwitter />,
-            url: "https://twitter.com/harkl_"
+            url: "https://twitter.com/boom_army_"
         },
         {
             icon: <FaGithub />,

@@ -22,11 +22,15 @@ const Awards = () => {
                   <Heading as="h1">Development progress</Heading>
                 </SectionBackground>
                 <Text>
-                  Alpha is being built out as we speak and a lot of the Solana community on Twitter are following <a href="https://twitter.com/harkl_">harkl_</a> ready to be alpha testers. 
-                  There are 3 parts of the application: the React client, The token, and the GraphQL API. 
-                  For alpha launch they'll be deployed on a centralised host, but the overall goal on the roadmap is to open source the client
-                  and move the GraphQL API into <a href="https://orbitdb.org">Orbit DB</a> built with <a href="https://ipfs.io">IPFS</a>.
-                  You can follow completeness of the different componets here.
+                  We've successfully completed our Alpha Testnet phase and have
+                  moved into Beta on Solana Mainnet. Now you can chat and mint
+                  NFTs directly on boom.army. In the next few months we're going
+                  to be delivering Community Channels, NFT Community Governance,
+                  and a market place where users can buy and sell the NFTs they
+                  mint on boom.army. We've also got our first public NFT sale
+                  launching in February. To find out more go to{" "}
+                  <a href="https://twitter.com/boom_army_">@boom_army_</a> or
+                  join our <a href="https://discord.gg/nEyQQeaNRk">Discord</a>.
                 </Text>
               </SectionTitle>
             </Box>

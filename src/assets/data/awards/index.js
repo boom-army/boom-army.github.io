@@ -23,8 +23,8 @@ export default {
     },
     {
       icon: <FaUsers />,
-      count: 1303,
-      body: "Alpha testers",
+      count: 2812,
+      body: "Creators",
       suffix: ""
     },
   ],

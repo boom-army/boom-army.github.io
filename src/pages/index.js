@@ -19,7 +19,7 @@ const IndexPage = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Layout>
-      <SEO title="Boom | NFT Driven Creator Communities" />
+      <SEO title="Boom | NFT Driven Communities on Solana" />
       <Navigation />
       <BannerTwo />
       <Service />
