@@ -4,19 +4,19 @@ export default {
       name: "General",
       items: [
         {
-          title: "How can I participate in alpha testing?",
+          title: "How can I participate in beta testing?",
           body:
-            "Boom will be open to alpha testing when the timer counts down. Follow @boom_army_ on twitter for updates how to be part of alpha.",
+            "Easy, just go to https://boom.army and connect your Phantom wallet to start posting.",
         },
         {
-          title: "Which @boom_army_ twitter followers will be part of alpha?",
+          title: "Where can I purchase $BMA tokens?",
           body:
-            "All followers who are interested once the countdown is complete will be invited to participate.",
+            "We have a swap listing on Alrdrin at https://dex.aldrin.com/pools/BMA_USDC",
         },
         {
           title: "Where is your roadmap?",
           body:
-            "This is just a teaser site to answer questions and direct people to while the build is taking place. A whitepaper and roadmap will be produced once alpha is complete.",
+            "On Github in our docs section - https://github.com/boom-army/docs/blob/main/roadmap.md",
         },
       ],
     },
