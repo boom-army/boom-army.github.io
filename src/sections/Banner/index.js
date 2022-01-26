@@ -66,7 +66,7 @@ const Banner = () => {
                   {" "}
                   Get in touch{" "}
                 </Link> */}
-                <Link to="https://github.com/sosol-gmi/docs/blob/main/whitepaper.md" className="btn" target="_blank">
+                <Link to="https://github.com/boom-army/docs/blob/main/whitepaper.md" className="btn" target="_blank">
                   White paper
                 </Link>
               </Box>

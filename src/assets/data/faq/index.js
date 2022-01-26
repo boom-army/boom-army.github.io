@@ -6,10 +6,10 @@ export default {
         {
           title: "How can I participate in alpha testing?",
           body:
-            "Boom will be open to alpha testing when the timer counts down. Follow sosol_app on twitter for updates how to be part of alpha.",
+            "Boom will be open to alpha testing when the timer counts down. Follow @boom_army_ on twitter for updates how to be part of alpha.",
         },
         {
-          title: "Which sosol_app twitter followers will be part of alpha?",
+          title: "Which @boom_army_ twitter followers will be part of alpha?",
           body:
             "All followers who are interested once the countdown is complete will be invited to participate.",
         },

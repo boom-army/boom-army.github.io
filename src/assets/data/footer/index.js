@@ -14,7 +14,7 @@ import {
         },
         {
             icon: <FaGithub />,
-            url: "https://github.com/sosol-gmi"
+            url: "https://github.com/boom-army"
         },
         // {
         //     icon: <FaSlack />,
