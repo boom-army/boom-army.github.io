@@ -8,14 +8,14 @@ const ServiceSectionWrapper = styled.div`
     .service-item-wrapper{
         padding: 25px 32px;
         border-radius: 10px;
-        background-color: #2B1867;
+        background-color: ${props => props.theme.boxOuterColor};
 
         .service-item {
             padding: 15px 0;
             border-radius: 8px;
             transition: all 0.3s ease-in;
             &:hover{
-                background: #280D57;
+                background: ${props => props.theme.boxInnerColor};
             }
             img {
                 height: 80px;

@@ -12,7 +12,9 @@ const theme = {
     linkColor: '#FD0069',
     NavBG: 'transparent',
     NavBGSolid: '#14202c',
-    menuHoverColor: '#1F2AD5',
+    menuHoverColor: '#FEAB07',
+    boxOuterColor: '#004064',    
+    boxInnerColor: '#003450',
 };
 export default theme;
 
