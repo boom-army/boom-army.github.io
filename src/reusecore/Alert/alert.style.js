@@ -8,7 +8,7 @@ const AlertWrapper = styled.div`
     border-radius: .25rem;
 
     &.primary {
-        color: #004085;
+        color: ${props => props.theme.primaryColor};
         background-color: #cce5ff;
         border-color: #b8daff;
       }

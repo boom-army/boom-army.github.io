@@ -45,9 +45,10 @@ const BannerTwo = () => {
                 Communities
               </Heading>
               <Text as="span" className="description">
-                We're developing a dedicated space on Solana to share, discuss, mint and game with your NFTs.{" "}
-                <br />
-                Get access to the dopest NFT driven communities in the world and make money for your content in the process.
+              Boom is a social network built on the Solana blockchain. <br />
+              Boom lets you create NFT Communities with one click.  <br />
+              NFTs govern access to those Communities.  <br />
+              Trade your NFTs on our Creator Market Place soon.
               </Text>
 
               <Box className="coin-info">
