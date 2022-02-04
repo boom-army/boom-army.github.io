@@ -22,7 +22,7 @@ const UserMap = () => {
                   Boom.Army is building a market place for Artists and Creators
                   to Mint, Sell and Build Communities using NFTs. Holders of
                   #The1303 OG NFT will receive a split share of 20% of our total
-                  Market Place profits FOREVER. <a href="BoomMintImage">Mint your 1303 NFT now!</a>
+                  Market Place profits FOREVER. <a href="https://app.boom.army/mint-nft/1303">Mint your 1303 NFT now!</a>
                 </Text>
               </SectionTitle>
             </Col>
