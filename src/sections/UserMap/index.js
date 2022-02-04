@@ -6,22 +6,23 @@ import Box from "reusecore/Box"
 import Heading from "reusecore/Heading"
 import Text from "reusecore/Text"
 
-import UserMapImage from "assets/images/users-map.png"
+import BoomMintImage from "assets/images/boom-mint.png"
 import UserMapWrapper from "./userMap.style"
 
 const UserMap = () => {
   return (
     <UserMapWrapper>
-      <Box className="usermap-wrapper">
+      <Box className="usermap-wrapper"> 
         <Container className="fluid">
           <Row>
             <Col className="sm-12 md-10 offset-md-1">
               <SectionTitle className="text-center">
-                <Heading>More than 3 Bilion worldwide use</Heading>
+                <Heading>The 1303 OG NFT Minting NOW</Heading>
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers. A parameters phase
-                  orthographic the can differentiates.
+                  Boom.Army is building a market place for Artists and Creators
+                  to Mint, Sell and Build Communities using NFTs. Holders of
+                  #The1303 OG NFT will receive a split share of 20% of our total
+                  Market Place profits FOREVER. <a href="BoomMintImage">Mint your 1303 NFT now!</a>
                 </Text>
               </SectionTitle>
             </Col>
@@ -29,7 +30,7 @@ const UserMap = () => {
           <Row>
             <Col className="md-12">
               <Box className="usermap-block">
-                <img src={UserMapImage} alt="" />
+                <img src={BoomMintImage} alt="Boom Minting NOW" />
               </Box>
             </Col>
           </Row>
