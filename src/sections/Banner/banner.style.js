@@ -9,7 +9,7 @@ const BannerWrapper = styled.div`
   .banner__thumb{
     position: absolute;
     right: -4%;
-    top: -12%;
+    top: 5%;
     width: 40%;
   }
   
@@ -44,18 +44,14 @@ const BannerWrapper = styled.div`
 
   .banner-content {
     .offer-text {
-      color: #ffffff;
+      color: ${props => props.theme.backgroundColor};
       padding: 12px 30px;
       border-radius: 30px;
       font-size: 14px;
       margin-bottom: 33px;
       font-weight: 400;
       background: rgb(35, 42, 213);
-      background: linear-gradient(
-        87deg,
-        rgba(35, 42, 213, 1) 45%,
-        rgba(194, 56, 231, 1) 100%
-      );
+      background: ${props => props.theme.secondaryColor};
     }
 
     h1 {
@@ -66,7 +62,7 @@ const BannerWrapper = styled.div`
 
     p {
       margin-bottom: 60px;
-      color: #BEABDF;
+      color: ${props => props.theme.white};
       font-size: 18px;
       line-height: 28px;
     }

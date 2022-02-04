@@ -7,7 +7,7 @@ import Badge from "reusecore/Badge"
 import Heading from "reusecore/Heading"
 import Text from "reusecore/Text"
 
-import BannerImage from "assets/images/banners/banner-one/banner-one-thumb.svg"
+import BannerImage from "assets/images/banners/banner-one/my-profile.png"
 
 import particleTopLeft from "assets/images/particles/banner/particle-top-left.png"
 import particleUnderLogo from "assets/images/particles/banner/particle-under-logo.png"
