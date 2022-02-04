@@ -19,7 +19,7 @@ import BannerWrapper from "./banner.style"
 
 const Banner = () => {
   return (
-    <BannerWrapper>
+    <BannerWrapper id="goals">
       <img
         src={particleTopLeft}
         className="section__particle top-left"

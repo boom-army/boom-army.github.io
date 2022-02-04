@@ -5,18 +5,23 @@ const Data = {
       path: "/",
     },
     {
-      name: "Token",
-      path: "token",
-      offset: "-110",
+      name: "1303 NFT",
+      path: "nft-mint",
+      offset: "-80",
     },
     {
-      name: "Service",
+      name: "Features",
       path: "service",
       offset: "-120",
     },
     {
-      name: "Technology",
-      path: "stack",
+      name: "Goals",
+      path: "goals",
+      offset: "-10",
+    },
+    {
+      name: "Community",
+      path: "community",
       offset: "-100",
     },
     {

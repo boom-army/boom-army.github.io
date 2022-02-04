@@ -11,7 +11,7 @@ import UserMapWrapper from "./userMap.style"
 
 const UserMap = () => {
   return (
-    <UserMapWrapper>
+    <UserMapWrapper id="nft-mint">
       <Box className="usermap-wrapper"> 
         <Container className="fluid">
           <Row>

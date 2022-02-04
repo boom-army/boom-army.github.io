@@ -13,7 +13,7 @@ import AwardsSectionWrapper from "./awards.style"
 
 const Awards = () => {
   return (
-    <AwardsSectionWrapper>
+    <AwardsSectionWrapper id="community">
       <Container>
         <Row>
           <Col className="md-6">
