@@ -19,12 +19,7 @@ const SubscribeWrapper = styled.div`
         width: 100%;
         height: 100%;
         border-radius: 43px;
-        background: rgb(200, 56, 231);
-        background: linear-gradient(
-          94deg,
-          rgba(200, 56, 231, 1) 0%,
-          rgba(31, 42, 213, 1) 100%
-        );
+        background: ${props => props.theme.boxInnerColor};
         content: "";
         opacity: .65
       }
@@ -36,18 +31,19 @@ const SubscribeWrapper = styled.div`
       a {
         font-size: 16px;
         padding: 18px 35px;
-        border: 1px solid #ffffff;
-        color: #ffffff;
+        border: 1px solid ${props => props.theme.secondaryColor};
+        color: ${props => props.theme.backgroundColor};
         transition: all 0.3s ease-in;
         &:hover{
-          background: #1F2AD5;
-          color: #FFF;
+          background: ${props => props.theme.secondaryHoverColor};
+          color: ${props => props.theme.backgroundColor};
         } 
       }
 
       .btn-fill {
-      background: ${props => props.theme.NavBGSolid};
-        color: #FFF;
+      background: ${props => props.theme.secondaryColor};
+        color: ${props => props.theme.backgroundColor};
+        font-weight: 700;
         width: auto;
       }
     }

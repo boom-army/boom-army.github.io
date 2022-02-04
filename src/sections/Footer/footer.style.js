@@ -3,10 +3,6 @@ import footerBg from "assets/images/footer-bg.png";
 
 const FooterWrapper = styled.div`
   .footer-content-wrapper {
-    background: url(${footerBg});
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
   a {
     &:hover {
@@ -70,17 +66,17 @@ const FooterWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 0.5px solid #4e55aa;
-    border-bottom: 0.5px solid #4e55aa;
+    border-top: 0.5px solid ${props => props.theme.borderColor};
+    border-bottom: 0.5px solid ${props => props.theme.borderColor};
     align-items: center;
     justify-content: center;
     a {
       font-size: 36px;
       font-weight: 700;
-      color: #beabdf;
+      color: ${props => props.theme.secondaryColor};
       padding: 0 20px;
       &:hover {
-        color: #fff;
+        color: ${props => props.theme.secondaryHoverColor};
       }
     }
   }
