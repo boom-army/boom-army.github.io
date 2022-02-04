@@ -1,10 +1,11 @@
 import React from "react"
 
-import { Container, Row, Col } from "reusecore/Layout"
 import Box from "reusecore/Box"
+import Counter from "reusecore/Counter"
 import Heading from "reusecore/Heading"
 import Text from "reusecore/Text"
-import Counter from "reusecore/Counter"
+import { Container, Row, Col } from "reusecore/Layout"
+import { Link } from "gatsby"
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle"
 
 import data from "assets/data/awards"
@@ -19,16 +20,15 @@ const Awards = () => {
             <Box className="awards-left-content">
               <SectionTitle>
                 <SectionBackground>
-                  <Heading as="h1">Development progress</Heading>
+                  <Heading as="h1">Be Part of Community</Heading>
                 </SectionBackground>
                 <Text>
-                  We've successfully completed our Alpha Testnet phase and have
-                  moved into Beta on Solana Mainnet. Now you can chat and mint
-                  NFTs directly on boom.army. In the next few months we're going
-                  to be delivering Community Channels, NFT Community Governance,
-                  and a market place where users can buy and sell the NFTs they
-                  mint on boom.army. We've also got our first public NFT sale
-                  launching in February. To find out more go to{" "}
+                  Be part of a tight knit growing Community. Boom has
+                  successfully completed our Alpha Testnet phase and have moved
+                  into Beta on Solana Mainnet in just 3 months. Now you can chat
+                  and mint NFTs directly on boom.army. Community Channels, NFT
+                  Community Governance, and a Market Place are coming on
+                  boom.army in Q1-22. To find out the latest go to{" "}
                   <a href="https://twitter.com/boom_army_">@boom_army_</a> or
                   join our <a href="https://discord.gg/nEyQQeaNRk">Discord</a>.
                 </Text>

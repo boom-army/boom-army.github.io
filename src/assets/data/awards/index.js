@@ -1,29 +1,29 @@
 import React from 'react';
-import { FaMobile, FaUsers, FaCoins, FaDatabase } from "react-icons/fa";
+import { FaUserCircle, FaUsers, FaTwitter, FaDiscord } from "react-icons/fa";
 
 export default {
   awards: [
     {
-      icon: <FaMobile />,
-      count: 100,
-      body: "App complete",
-      suffix: "%"
+      icon: <FaUserCircle />,
+      count: 1303,
+      body: "Founders",
+      suffix: ""
     },
     {
-      icon: <FaCoins />,
-      count: 100,
-      body: "Token complete",
-      suffix: "%"
+      icon: <FaTwitter />,
+      count: 6621,
+      body: "Twitter",
+      suffix: ""
     },
     {
-      icon: <FaDatabase />,
-      count: 100,
-      body: "Devops complete",
-      suffix: "%"
+      icon: <FaDiscord />,
+      count: 2967,
+      body: "Discord",
+      suffix: ""
     },
     {
       icon: <FaUsers />,
-      count: 2812,
+      count: 2919,
       body: "Creators",
       suffix: ""
     },

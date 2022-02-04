@@ -23,18 +23,12 @@ const AwardsSectionWrapper = styled.div`
       align-items: center;
       padding: 20px 0 20px 50px;
       margin-bottom: 10px;
-      background: #2b1867;
+      background: ${props => props.theme.boxInnerColor};
       border-radius: 5px;
       cursor: pointer;
       &.active,
       &:hover {
-        background: rgb(32, 47, 213);
-        background: linear-gradient(
-          90deg,
-          rgba(32, 47, 213, 1) 0%,
-          rgba(139, 51, 224, 1) 57%,
-          rgba(195, 56, 231, 1) 100%
-        );
+        background: ${props => props.theme.boxOuterColor};
         box-shadow: 0px 0px 17px #221156;
       }
 
@@ -55,7 +49,7 @@ const AwardsSectionWrapper = styled.div`
 
           &.text {
             margin: 0;
-            color: #beabdf;
+            color: ${props => props.theme.white};
             font-family: Open sans;
           }
         }
