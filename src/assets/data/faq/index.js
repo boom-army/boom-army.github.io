@@ -6,7 +6,7 @@ export default {
         {
           title: "How can I participate in beta testing?",
           body:
-            "Easy, just go to https://boom.army and connect your Phantom wallet to start posting.",
+            "Easy, just go to htps://boom.army and connect your Phantom wallet to start posting.",
         },
         {
           title: "Where can I purchase $BMA tokens?",

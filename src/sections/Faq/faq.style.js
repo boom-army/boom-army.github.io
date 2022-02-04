@@ -25,7 +25,7 @@ const FaqSectionWrapper = styled.div`
         border-radius: 5px;
 
         &.react-tabs__tab--selected {
-          background: #280d57;
+          background: ${props => props.theme.boxInnerColor};
           color: #fff;
         }
       }
@@ -33,8 +33,8 @@ const FaqSectionWrapper = styled.div`
   }
 
   .accordion__item {
-    background: #2b1867;
-    border: 1px solid #beabe0;
+    background: ${props => props.theme.boxInnerColor};
+    border: 1px solid ${props => props.theme.boxOuterColor};
     border-radius: 5px;
     padding: 30px;
 
