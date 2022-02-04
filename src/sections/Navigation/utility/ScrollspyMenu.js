@@ -40,8 +40,8 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
         </ListItem>
       ))}
       <ListItem>
-        <Link to="https://jup.ag/swap/USDC-BMA" target="_blank">
-          <button className="nav__button">Buy $BMA tokens</button>
+        <Link to="https://app.boom.army/mint-nft/1303" target="_blank">
+          <button className="nav__button">Mint 1303 NFT</button>
         </Link>
       </ListItem>
     </List>

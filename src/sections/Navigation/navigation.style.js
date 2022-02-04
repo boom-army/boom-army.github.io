@@ -23,10 +23,11 @@ const NavigationWrap =  styled.header`
   .nav__button{
     width: 170px;
     height: 60px;
+    font-weight: 700;
     outline: none;
     border: none;
-    background: linear-gradient( 93deg,rgba(196,56,231,1) 0%,rgba(122,49,222,1) 52%,rgba(37,42,213,1) 100% );
-    color: ${props => props.theme.white};
+    background: ${props => props.theme.secondaryColor};
+    color: ${props => props.theme.backgroundColor};
     border-radius: 5px;
     font-size: 18px;
     transition: all 0.3s ease-in;
@@ -34,8 +35,7 @@ const NavigationWrap =  styled.header`
     &:focus{
       outline: none;
       border: none;
-      background: linear-gradient( 93deg, rgba(37,42,213,1) 0%,rgba(122,49,222,1) 52%, rgba(196,56,231,1) 100% );
-      color: ${props => props.theme.white};
+      background: ${props => props.theme.secondaryHoverColor};
     }
   }
   /*Drop down style*/ 
