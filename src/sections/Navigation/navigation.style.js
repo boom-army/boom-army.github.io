@@ -13,7 +13,7 @@ const NavigationWrap =  styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #6A598E;
+    border-bottom: 3px solid ${props => props.theme.borderColor};
   }
   .mobile-menu-icon {
     display: none;
@@ -130,8 +130,8 @@ const NavigationWrap =  styled.header`
   }
   &.scrolled{ 
     box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 30px;
-    background: #290E59;
-    border-color: ${props => props.theme.NavBGSolid};
+    background: ${props => props.theme.NavBGSolid};
+    border-color: ${props => props.theme.borderColor};
     .navbar-wrap{
       border-color: transparent
     }
@@ -162,7 +162,7 @@ const NavigationWrap =  styled.header`
     height: auto;
     min-height: 50px;
     padding: 15px 20px;
-    background: #290E59;
+    background: ${props => props.theme.NavBGSolid};
     &.scrolled{
         padding: 8px 20px;
         border-color: transparent;

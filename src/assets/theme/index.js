@@ -44,11 +44,7 @@ body {
   margin: 0;
   padding: 0;
 
-    background: rgb(19,12,30);
-    background: linear-gradient(167deg,rgb(19 12 30) 0%,rgb(29 35 104) 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  background: ${props => props.theme.backgroundColor};
 }
 
 h1,

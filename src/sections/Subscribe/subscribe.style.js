@@ -46,7 +46,7 @@ const SubscribeWrapper = styled.div`
       }
 
       .btn-fill {
-      background: #290e59;
+      background: ${props => props.theme.NavBGSolid};
         color: #FFF;
         width: auto;
       }

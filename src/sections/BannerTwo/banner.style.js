@@ -8,8 +8,9 @@ const BannerWrapper = styled.div`
   .banner__thumb {
     position: absolute;
     right: -4%;
-    top: -12%;
+    top: 0%;
     width: 40%;
+    border: 1px solid ${props => props.theme.borderColor};
   }
 
   .section__particle {
@@ -124,7 +125,7 @@ const BannerWrapper = styled.div`
         height: 100%;
         width: 3px;
         content: "";
-        background: #b096df;
+        background: ${props => props.theme.secondaryColor};
       }
     }
   }

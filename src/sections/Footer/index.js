@@ -26,7 +26,7 @@ const Footer = () => {
               </Box>
 
               <Box className="copyright-text">
-                <Text>§ Crypto Rocks</Text>
+                <Text>◎ Built on Solana</Text>
                 <Text as="span">
                   <Link to="https://solanabeach.io">WAGMI</Link>
                 </Text>

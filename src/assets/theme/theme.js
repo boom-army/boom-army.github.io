@@ -1,15 +1,17 @@
 const theme = {
     black: '#333333',
     white: '#ffffff',
+    borderColor: '#FD0069',
+    backgroundColor: '#14202c',
     primaryColor: '#004085',
     primaryHoverColor: '#cce5ff',
-    secondaryColor: '#383d41',
-    headingColor: '#FFFFFF',
-    bodyColor: '#BEABDF',
-    linkColor: '#1F2AD5',
+    secondaryColor: '#FEAB07',
+    headingColor: '#FD0069',
+    bodyColor: '#FFF',
+    linkColor: '#FD0069',
     NavBG: 'transparent',
-    NavBGSolid: '#290E59',
-    menuHoverColor: '#1F2AD5'
+    NavBGSolid: '#14202c',
+    menuHoverColor: '#1F2AD5',
 };
 export default theme;
 
