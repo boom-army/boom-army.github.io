@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import footerBg from "assets/images/footer-bg.png";
+// import footerBg from "assets/images/footer-bg.png";
 
 const FooterWrapper = styled.div`
   .footer-content-wrapper {

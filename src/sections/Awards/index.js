@@ -5,7 +5,7 @@ import Counter from "reusecore/Counter"
 import Heading from "reusecore/Heading"
 import Text from "reusecore/Text"
 import { Container, Row, Col } from "reusecore/Layout"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle"
 
 import data from "assets/data/awards"

@@ -11,7 +11,6 @@ import Stack from "sections/Stack";
 import Faq from "sections/Faq"; 
 import Awards from "sections/Awards";
 import Footer from "sections/Footer";
-import UserMap from "../sections/UserMap";
 
 import theme from "assets/theme/theme";
 import GlobalStyle from "assets/theme";
@@ -23,7 +22,6 @@ const IndexPage = () => (
       <SEO title="Boom | NFT Driven Communities on Solana" />
       <Navigation />
       <BannerTwo />
-      <UserMap />
       <Service />
       <Stack />
       <Banner />

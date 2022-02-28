@@ -40,8 +40,8 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
         </ListItem>
       ))}
       <ListItem>
-        <Link to="https://app.boom.army/mint-nft/1303" target="_blank">
-          <button className="nav__button">Mint 1303 NFT</button>
+        <Link to="https://app.boom.army/" target="_blank">
+          <button className="nav__button">Launch App</button>
         </Link>
       </ListItem>
     </List>
